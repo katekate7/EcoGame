@@ -1,0 +1,75 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 10%;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #a2c517;
+    box-shadow: 0px 8px #5f7820;
+}
+
+.hover :hover{
+    background-color: #85a600;
+}
+
+@font-face{
+    font-family: 'Poppins-Black';
+    src: url('fonts/Poppins/Poppins-Black.ttf');
+}
+
+@font-face{
+    font-family: 'Poppins-LightItalic';
+    src: url('fonts/Poppins/Poppins-LightItalic.ttf');
+}
+
+a{
+    color: white;
+    font-family: 'Poppins-Black';
+    text-decoration: none;
+}
+
+body{
+    background-image: url(images1/2023-05-29\ 15.11.55.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    grid-column: 1/6;
+    margin-top: 151px;
+    margin-left: 80px;
+    font-family: 'Poppins-Black';
+    color: white;
+    line-height: 2;
+}
+
+.planet{
+    margin: 0;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 8px 8px #805531;
+}
+
+.craft{
+    margin-top: -109px;
+    margin-bottom: 0;
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #b3d916;
+    text-shadow: 8px 8px #5f7922;
+}
+
+.conception{
+    margin-top: -45px;
+    font-family: 'Poppins-LightItalic';
+    width: 500px;
+    font-size: 25px;
+}

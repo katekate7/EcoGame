@@ -1,0 +1,180 @@
+canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.shouse{
+  position: absolute;
+  top:10px;
+  left: 20px;
+}
+.carton2{
+  position: absolute;
+  top: 40%;
+}
+.wheel2{
+  position: absolute;
+  top:50%;
+}
+.plastic{
+  position: absolute;
+  top:60%;
+}
+#timer{
+  position: absolute;
+  top: 90%;
+  font-size: 30px;
+  height: 10px;
+  width: 10px;
+  left: 50%;
+  font-family: 'Poppins';
+}
+.score1{
+  left: 60%;
+  position: absolute;
+  bottom: -5px;
+  font-size: 25px;
+}
+.score2{
+  left: 60%;
+  position: absolute;
+  bottom: -5px;
+  font-size: 25px;
+}
+.score3{
+  left: 60%;
+  position: absolute;
+  bottom: -5px;
+  font-size: 25px;
+}
+
+@font-face{
+    font-family: 'Poppins-LightItalic';
+    src: url('fonts/Poppins/Poppins-LightItalic.ttf');
+}
+
+@font-face{
+  font-family: 'Poppins-Medium';
+  src: url('fonts/Poppins/Poppins-Medium.ttf');
+}
+.lasttext{
+  position: absolute;
+  top:20%;
+  left: 11%;
+  width: 420px;
+  line-height: 1.5;
+  font-family: 'Poppins-Medium';
+}
+.black{
+  position: absolute;
+  background-color: black;
+  top: 0%;
+  opacity: 35%;
+  height: 872px;
+  width: 1536px;
+}
+#end{
+  position: absolute;
+  top:48%;
+  left: 39.5%;
+}
+.lasttext1{
+  position: absolute;
+  top:20%;
+  left: 7%;
+  width: 400px;
+  line-height: 1.5;
+  color: white;
+  font-family: 'Poppins-Medium';
+}
+
+.lasttext2{
+  position: absolute;
+  top:20%;
+  left: 7%;
+  width: 400px;
+  line-height: 1.5;
+  color: white;
+  padding: 0%;
+  font-family: 'Poppins-Medium';
+}
+
+.black1{
+  position: absolute;
+  background-color: black;
+  top: 0%;
+  opacity: 35%;
+  height: 872px;
+  width: 1536px;
+  left: 0%;
+  margin: 0%;
+  padding: 0%;
+}
+#end1{
+  position: absolute;
+  top: 15%;
+  left: 36%;
+margin: 0%;
+padding: 0%;
+}
+#lastpagewin{
+  margin: 0%;
+  padding: 0%;
+}
+
+.black2{
+  position: absolute;
+  background-color: black;
+  top: 0%;
+  opacity: 35%;
+  height: 872px;
+  width: 1536px;
+  left: 0%;
+  margin: 0%;
+  padding: 0%;
+}
+#end2{
+  position: absolute;
+  top: 15%;
+  left: 36%;
+margin: 0%;
+padding: 0%;
+}
+#lastpagelose{
+  margin: 0%;
+  padding: 0%;
+}
+#felicitations{
+  width: 300px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #a25eab;
+  box-shadow: 0px 8px #8e389a;
+  margin-top: 14%;
+  margin-left: 10%;
+  font-family: 'Poppins-Medium';
+  font-size: 30px;
+}
+a{
+  color: white;
+  font-family: 'Poppins-Medium';
+  text-decoration: none;
+}
+#découragez{
+  width: 300px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #a25eab;
+  box-shadow: 0px 8px #8e389a;
+  margin-top: 14%;
+  margin-left: 10%;
+  font-family: 'Poppins-Medium';
+  font-size: 30px;
+}

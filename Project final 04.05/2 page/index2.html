@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <title>Document</title>
+
+<body>  
+
+  <div id="lastpage" style="display: block;">
+    <div class="black"></div>
+    <div id="end">
+      <img src="../images/text.png">
+      <p class="lasttext">
+        <b>Bienvenue dans Planet Craft !</b><br><br>
+        Votre mission d'aujourd'hui est de collecter un certain nombre 
+        de bouteilles, de pneus et de cartons en un temps limité pour 
+        fabriquer Notre chaussure écoconçue. Défiez-vous pour atteindre 
+        cet objectif et devenez un héros de l'écoconception ! 
+        En avant vers un monde plus vert et durable !
+      </p>
+    </div>
+  </div>
+
+    <div id="lastpagewin" style="display: none; ">
+    <div class="black1"></div>
+    <div id="end1">
+      <img src="../images/win.png">
+      <p class="lasttext1">
+        <b>Félicitations, Joueur !</b><br><br>
+       Grâce à vos efforts et à votre engagement, vous avez réussi à collecter 
+       tous les matériaux nécessaires et à fabriquer une superbe chaussure écoconçue. 
+       Votre travail acharné et votre créativité ont permis de créer un objet durable 
+       qui contribuera à préserver notre environnement. Continuez à inspirer les autres 
+       avec vos actions éco-responsables et à explorer de nouveaux défis pour un avenir plus vert !
+      <br>
+      <button id="felicitations"><a href="../2 page/index2.html">REJOUER</a></button>
+      </p> 
+    </div>
+  </div>
+
+  <div id="lastpagelose" style="display: none;">
+    <div class="black2"></div>
+    <div id="end2">
+      <img src="../images/lose.png">
+       <p class="lasttext2">
+        <b>Ne vous découragez pas, Player !</b><br><br>
+       Parfois, le chemin de l'écoconception comporte des obstacles. Bien que vous
+        n'ayez pas réussi à collecter tous les matériaux requis cette fois-ci, chaque 
+        défi est une opportunité d'apprendre et de grandir. Rechargez vos batteries et 
+        revenez plus fort, prêt à affronter de nouveaux défis éco-responsables. Rappelez-vous,
+         chaque petite action compte dans la préservation de notre environnement ! 
+       <button id="découragez"><a href="../2 page/index2.html">JOUER </a></button>
+      </p>
+    </div>
+  </div>
+
+
+  <div id="canvas-container">
+    <canvas id="canvas" width="1500" height="800"></canvas>
+    <div class="shouse">
+      <img src="../images/shouse.png">
+    </div>
+    <div class="carton2">
+      <img src="../images/carton2.png">
+      <p class="score1">0/3</p>
+    </div>
+    <div class="wheel2">
+      <img src="../images/plastic.png">
+      <p class="score2">0/3</p>
+    </div>
+    <div class="plastic">
+      <img src="../images/pneu.png">
+      <p class="score3">0/3</p>
+    </div>
+
+    <p id="timer">1:00</p>
+
+
+  </div>
+  <script src="onemorescript.js"></script>
+  <!-- <script src="scriptproba.js"></script> -->
+</body>
+
+</html>
